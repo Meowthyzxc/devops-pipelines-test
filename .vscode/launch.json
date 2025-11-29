@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot Run",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.example.devops_spring_backend.DevopsSpringBackendApplication",
+      "args": "",
+      "vmArgs": ""
+    }
+  ]
+}
