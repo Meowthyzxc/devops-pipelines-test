@@ -13,6 +13,11 @@ public class HelloWorldController {
 
     @GetMapping("/health")
     public String HealthCheck(){
-        return "Hello worldsss!";
+        return "Health check";
+    }
+
+    @GetMapping("/post")
+    public String PostMethod(){
+        return "PostMethod!";
     }
 }
