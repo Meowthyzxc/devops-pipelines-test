@@ -10,4 +10,9 @@ public class HelloWorldController {
     public String HelloWorld(){
         return "Hello worldsss!";
     }
+
+    @GetMapping("/health")
+    public String HealthCheck(){
+        return "Hello worldsss!";
+    }
 }
